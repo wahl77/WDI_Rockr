@@ -40,3 +40,7 @@ gem 'unicorn'
 # gem 'debugger'
 
 gem 'quiet_assets'
+
+group :development, :test do
+  gem 'rspec-rails', '~> 2.0'
+end
