@@ -1,0 +1,10 @@
+%h1 StaticPages#index
+%p Find me in app/views/static_pages/index.html.haml
+
+= link_to "New Venue", new_venue_path, remote: true
+= link_to "New Concert", new_concert_path, remote: true
+
+#forms
+
+#concerts
+  = render partial:"static_pages/concerts"
